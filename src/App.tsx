@@ -1,8 +1,8 @@
-import Background from './components/layout/Background'
-import Hero from './sections/Hero'
-import InfoCards from './sections/InfoCards'
-import Customers from './sections/Customers'
-import logo from './assets/Logo.png'
+import Background from "./components/layout/Background";
+import Hero from "./sections/Hero";
+import InfoCards from "./sections/InfoCards";
+import Customers from "./sections/Customers";
+import logo from "./assets/Logo.png";
 
 export default function App() {
   return (
@@ -13,16 +13,14 @@ export default function App() {
       {/* Navigation Bar */}
       <nav className="fixed top-0 left-0 right-0 bg-black bg-opacity-10 backdrop-blur-[2px] z-50">
         {/* logo block positioned to the left edge of viewport */}
-        <div className="absolute left-4 top-0 bottom-0 flex items-center z-50">
-          <img
-            src={logo}
-            alt="techEffort Inc."
-            className="h-7 rounded-[3px]"
-          />
-          <span className="ml-2 text-[#666] text-sm">since 2016</span>
+        <div className="absolute left-4 top-4 flex flex-col z-50">
+          <img src={logo} alt="techEffort Inc." className="h-8 rounded-[2px]" />
+          <span className="mt-1 text-[#666] text-xs">
+            <i>Since 2016</i>
+          </span>
         </div>
 
-        <div className="container max-w-[72rem] mx-auto h-16 flex items-center">
+        <div className="container max-w-[72rem] mx-auto h-20 flex items-center">
           {/* future nav items can go here; container keeps centered layout for other nav content */}
         </div>
       </nav>
@@ -40,7 +38,8 @@ export default function App() {
         <section aria-labelledby="customers-title" className="mt-14 sm:mt-16">
           <h2
             id="customers-title"
-            className="text-center text-xl font-extrabold tracking-tight">
+            className="text-center text-xl font-extrabold tracking-tight"
+          >
             Our Customers
           </h2>
           <Customers />
@@ -52,5 +51,5 @@ export default function App() {
         </footer>
       </main>
     </>
-  )
+  );
 }

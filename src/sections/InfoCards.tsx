@@ -7,11 +7,7 @@ export default function InfoCards() {
       <Card>
         <h3 className="text-lg sm:text-xl font-extrabold mb-3">Our Services</h3>
         <p className="text-text-muted leading-relaxed">
-          We specialize in comprehensive auditiness upgrades, imigrades upgrades
-          migrations. Improved performance, security, encryption, fulllever.
-          multifactor, concepts, substruct high high availability, tibtacor
-          recovery, pricetag, operational readiness and dedicate support.
-          Ourviness service management of database systems, on premise of in the cloud.
+          We specialize in comprehensive database services, including upgrades, migrations, improved performance, security, encryption, maintenance, monitoring, proof of concepts, automation, high availability, disaster recovery, onboarding, operational readiness, and dedicated support. Our expertise ensures seamless operations and efficient management of your database systems, whether on-premise or in the cloud.
         </p>
       </Card>
 
@@ -19,10 +15,7 @@ export default function InfoCards() {
       <Card>
         <h3 className="text-lg sm:text-xl font-extrabold mb-3">About Us</h3>
         <p className="text-text-muted leading-relaxed mb-4">
-          We believe Techèffortt Inc. has been at the totem of innovading cutting
-          ediser tech, not logy solutions to businesses of all sizes. In
-          diveining on three decades of industry experience, we believe ike to irm of
-          seasoned terabase systems to meet.
+          We believe TechEffort Inc has been at the forefront of delivering cutting-edge technology solutions tailored to businesses of all sizes. With over three decades of industry experience, we believe our team of seasoned Database Engineers offers comprehensive database services to meet diverse business needs.
         </p>
         <div className="flex items-center gap-2 text-sm text-text-muted">
           <svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true">
