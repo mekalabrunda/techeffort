@@ -47,7 +47,7 @@ export default function App() {
 
         {/* Footer */}
         <footer className="mt-16 sm:mt-20 text-center text-text-muted text-sm">
-          © 2025 techeffort inc
+          © 2026 techeffort inc
         </footer>
       </main>
     </>
